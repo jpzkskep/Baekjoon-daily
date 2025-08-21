@@ -5,10 +5,6 @@ int main(void) {
     int idx=0;
     int temp;
     scanf("%d",&n);
-    if (n==0) {
-        printf("0");
-        return 0;
-    }
     while (n>0) {
         num[idx]=n%10;
         idx++;
