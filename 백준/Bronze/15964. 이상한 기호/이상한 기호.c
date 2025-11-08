@@ -2,9 +2,9 @@
 
 int main(void) {
     
-    int a,b;
+    long long a,b;
     scanf("%d %d",&a,&b);
     
-    printf("%d",(a+b)*(a-b));
+    printf("%lld",(a+b)*(a-b));
     return 0;
 }
