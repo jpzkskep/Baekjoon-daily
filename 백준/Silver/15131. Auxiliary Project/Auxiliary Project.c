@@ -7,7 +7,7 @@ int main(void) {
     int repeat_count=1;
     int second_count=2;
     
-    dp[2]=2;
+    dp[2]=1;
     dp[3]=7;
     dp[4]=4;
     
